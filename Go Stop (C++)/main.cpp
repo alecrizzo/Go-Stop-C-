@@ -1,13 +1,14 @@
+// Alec Rizzo - arizzo3@ramapo.edu
 // Main source file for C++ program to play the game Go Stop against a computer player
 
 #include <iostream>
-#include "gostop.h"
+#include "deck.h"
 
 using namespace std;
 
 int main() {
-	
-	print_rules();
+	Deck obj;
+	obj.shuffleDeck();
 
 	system("PAUSE");
 	return 0;

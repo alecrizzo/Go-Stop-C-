@@ -1,7 +1,12 @@
 #include "gostop.h"
 
+/*
+====================================================================
+							  *OTHER*
+====================================================================
+*/
 // Print function to allow player to choose if they want to see the rules
-void print_rules()
+void printRules()
 {
 	char rulechoice = ' ';
 	cout << "Welcome to the game of Go Stop, would you like to see the rules?\n";
@@ -62,6 +67,10 @@ void print_rules()
 		cout << "\t\t\t\t only the stack pair from H1/H2, the player does not capture any card - the player leaves all three cards as a triple stack in the layout\n\n";
 
 		cout << "\t Two cards match if they have the same face (A-K)\n\n";
+
+		cout << "CONTROLS: \n";
+		cout << "\t To play a card, just type it as it appears on the gameboard (ex: 3H which is 3 of hearts)\n";
+		cout << "\t If you would like to save the game, quit or ask for help, simply type 's', 'q', or 'h' respectively\n";
 
 	}
 }
