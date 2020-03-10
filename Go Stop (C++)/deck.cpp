@@ -6,6 +6,7 @@
 ====================================================================
 */
 
+// Member object for the 52 cards which will be combined and dealt by Dealer();
 vector<string> Deck::card_deck;
 
 // Constructor to setup deck of 52 cards in order
@@ -28,13 +29,18 @@ void Deck::loadDeck(string card)
 	card_deck.clear();
 }
 
-// Function to get a card from the deck and delete it (does it from the end not the front)
+// Function to return a string card from the deck and delete it (does it from the end not the front)
 string Deck::popDeck() 
 {
-	string last;
-	last = card_deck.back();
-	card_deck.pop_back();
-	return last;
+	if (card_deck.size() != 0) 
+	{
+		string card;
+		card = card_deck.back();
+		card_deck.pop_back();
+		return card;
+	}
+	else return "error"; //need to change this so players aren't dealt errors
+
 }
 
 // Function to shuffle all the values in the Deck "randomly"
@@ -52,6 +58,7 @@ int Deck::sizeOfDeck()
 	return card_deck.size();
 }
 
+// Prints all values in deck
 void Deck::printDeck() 
 {
 	for (int i = 0; i < card_deck.size(); i++) {

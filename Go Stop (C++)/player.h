@@ -2,7 +2,7 @@
 #include "gostop.h"
 #include "deck.h"
 
-// Class for a player (needs to be used with inheritance for the computer)
+// Class for a player (to be inhereted by the computer)
 class Player 
 {
 public:

@@ -6,6 +6,7 @@
 ====================================================================
 */
 
+// Should  swap layout to be implemented in dealer so it is with the stockpile
 vector<string> Game::layout_pile;
 vector<Player*> Game::player_type;
 
@@ -25,6 +26,8 @@ Game::Game()
 	else { cout << "ERROR: Fatal Error in Game Type Selection - Class Game\n"; }
 }
 
+
+// Displays the current values of the game to the user
 void Game::display() 
 {
 	// need to change formatting to be appropriate for gameplay (this is serialization format)
@@ -70,7 +73,7 @@ char Game::gameType()
 {
 	char userSelection = ' ';
 
-	cout << "Select the type of game you would like to play.\n";
+	cout << "\nSelect the type of game you would like to play.\n";
 	while (!(userSelection == 'r' || userSelection == 'm'))
 	{
 		cout << "Input 'r' for a single round or 'm' for a match: ";
@@ -107,7 +110,7 @@ void Game::displayLayout()
 }
 
 // Still needs the interaction/turn taking and decision making.
-// Currently just setsup and displays data
+// Currently just sets up and displays data, no proper gameplay implemented
 void Game::playRound() 
 {
 	Deck d1;
@@ -115,16 +118,16 @@ void Game::playRound()
 
 	scammer.combineDecks(d1, d2);
 
+	scammer.dealLayout(layout_pile);
+
 	for (int i = 0; i < 10; i++) 
 	{
 		scammer.dealCards(player_type[0]);
 		scammer.dealCards(player_type[1]);
 	}
 
-	scammer.dealLayout(layout_pile);
-
-	// somehow layout is not showing up and stockpile is only 8 cards long
-	// they might be switched up
+	// Error with the stockpile not getting all of the cards
+	// Check the Dealer(); and Deck(); constructors
 
 	display();
 }

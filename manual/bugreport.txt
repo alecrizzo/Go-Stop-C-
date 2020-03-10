@@ -1,3 +1,10 @@
+===================
 march 9, 2020
 ===================
 semantic error with layout and stockpile not getting the proper amount of cards and printing properly. 
+
+===================
+march 10, 2020
+===================
+the stockpile seems to be the issue, the issue is that the dealer is not storing all the required cards in the stockpile.
+

@@ -7,7 +7,7 @@ Save::Save()
 
 void Save::writeSave() 
 {
-	// cout as temp, change syntax to write to a file
+	// cout as temp, change syntax to write to a file.txt
 	cout << "Round: " << endl << endl;	// needs round #
 	cout << "Computer: " << endl;
 	cout << "\tScore: " << endl;		// needs score #

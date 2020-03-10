@@ -14,7 +14,7 @@ Player::Player()
 }
 
 // Function to take card from the deck and add to player_cards 
-template <typename T>	// Templated to work with both Deck and Dealer(combo_deck)
+template <typename T>	// Templated to work with both Deck(); and Dealer();
 void Player::drawCard(T d) 
 {
 	player_cards.push_back(d.popDeck());
