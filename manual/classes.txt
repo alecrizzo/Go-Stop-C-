@@ -1,0 +1,14 @@
+Class Descriptions:
+
+Computer();	//set up to be an inhereted class of Player(); no algorithm currently inplace.
+
+Dealer();	//Class to handle all management of cards and the combination of Deck();'s
+
+Deck();		//Deck setup and basic functions such as shuffleDeck(), popDeck() and sizeOfDeck();
+
+Game();		//Game is where all the classes and functionality meet. Game(); handles display, rounds matches, has a dealer member
+
+Player();	//Player is the setup and basic functionality of the user and computer players in the game
+
+Save();		//save is not yet implemented, but is going to use iss to read an existing game file and recieve notice from Game(); about a user wanting to save their game
+ 

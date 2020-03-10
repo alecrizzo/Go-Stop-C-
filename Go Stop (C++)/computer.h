@@ -5,10 +5,10 @@
 // Class for the computer player 
 class Computer : public Player 
 {
+public:
+	Computer();
 private:
 	vector <string> player_cards;
 	vector <string> captured_cards;
 
-public:
-	Computer();
 };

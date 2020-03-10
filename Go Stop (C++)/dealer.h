@@ -5,14 +5,6 @@
 
 class Dealer 
 {
-private:
-	//friend class Deck;
-
-	static vector<string> combo_deck;				// the combination of the 2 decks, becomes the stockpile	
-	char turnVal;									// 'h' for human turn, 'c' for computer turn
-
-	void swapTurns();
-
 public:
 	Dealer();
 
@@ -22,4 +14,13 @@ public:
 	void dealLayout(vector<string> layout_pile);
 	void displayStockpile();						// displays the combo_deck aka stockpile
 	void displayTurn();
+
+private:
+	//friend class Deck;
+
+	static vector<string> combo_deck;				// the combination of the 2 decks, becomes the stockpile	
+	char turnVal;									// 'h' for human turn, 'c' for computer turn
+
+	void swapTurns();
+
 };

@@ -1,0 +1,4 @@
+1. Playing the Game
+2. Saving the Game
+3. Getting Help From the Computer
+4. The Existence of an actual Computer Player(algorithm not yet implemented)

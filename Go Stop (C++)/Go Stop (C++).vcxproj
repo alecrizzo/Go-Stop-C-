@@ -135,6 +135,13 @@
     <ClInclude Include="player.h" />
     <ClInclude Include="save.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\manual\bugreport.txt" />
+    <Text Include="..\manual\classes.txt" />
+    <Text Include="..\manual\log.txt" />
+    <Text Include="..\manual\missingfeatures.txt" />
+    <Text Include="..\manual\readme.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

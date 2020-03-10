@@ -1,0 +1,31 @@
+====================
+Feb 1, 2020
+====================
+I checked project guidelines/rules to get a better understanding.
+Implemented a function to print rules to the player. I don't understand the rules very well.
+
+====================
+Feb 4, 2020
+====================
+did no implementation, just thought about what types of different classes would be needed to setup the game.
+Game, deck, player, computer-player.
+
+====================
+Feb 15, 2020
+====================
+Setup the cout in display in the new Game class. (game.h , game.cpp)
+
+====================
+Feb 20, 2020
+====================
+created card.h, computer.h, dealer.h, deck.h, player.h and the corresponding .cpp's
+
+====================
+Mar 1, 2020
+====================
+setup functions to setup the cards and combine them together.
+
+====================
+Mar 8-9, 2020
+====================
+Worked on game, deck and player and dealer classes. Having issues with displaying stockpile and Layout.

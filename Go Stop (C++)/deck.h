@@ -5,9 +5,6 @@
 // Class for Deck
 class Deck 
 {
-private:
-	static vector<string> card_deck;	// Standard deck of 52 cards
-
 public:
 	Deck();		// Constructor for Deck. Sets up all 52 cards in order
 
@@ -16,4 +13,8 @@ public:
 	static string popDeck();		// gets card off top of deck and removes it
 	static void shuffleDeck();	// shuffles deck
 	static void printDeck();
+
+private:
+	static vector<string> card_deck;	// Standard deck of 52 cards
+
 };

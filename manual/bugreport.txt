@@ -1,0 +1,3 @@
+march 9, 2020
+===================
+semantic error with layout and stockpile not getting the proper amount of cards and printing properly. 

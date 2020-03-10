@@ -5,11 +5,6 @@
 // Class for a player (needs to be used with inheritance for the computer)
 class Player 
 {
-private:
-	vector <string> player_cards;
-	vector <string> captured_cards;
-	int score;
-
 public:
 	Player();
 
@@ -20,5 +15,11 @@ public:
 	int totalCards();
 	void displayCards();
 	void displayCaptured();
+	void displayScore();
+
+private:
+	vector <string> player_cards;
+	vector <string> captured_cards;
+	int score;
 
 };

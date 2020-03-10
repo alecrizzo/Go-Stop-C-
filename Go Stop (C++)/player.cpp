@@ -51,3 +51,8 @@ void Player::displayCaptured()
 		cout << captured_cards[i] << ", ";
 	}
 }
+
+void Player::displayScore() 
+{
+	cout << score;
+}

@@ -6,8 +6,8 @@
 
 class Card 
 {
-private:
-
 public:
 	Card();
+private:
+
 };

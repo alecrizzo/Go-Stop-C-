@@ -3,9 +3,10 @@
 
 class Save 
 {
+public:
+	Save();
+
 private:
 	void writeSave();
 
-public:
-	Save();
 };

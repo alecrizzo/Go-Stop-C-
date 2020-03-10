@@ -69,4 +69,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\manual\log.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\manual\missingfeatures.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\manual\readme.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\manual\bugreport.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\manual\classes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

@@ -31,7 +31,9 @@ void Game::display()
 	cout << "====================================================================\n";
 	cout << "Round: " << endl << endl;			// needs round #
 	cout << "Computer: " << endl;
-		cout << "\tScore: " << endl;			// needs score #
+		cout << "\tScore: ";// needs score #
+		player_type[1]->displayScore();
+		cout << endl;
 		cout << "\tHand: ";
 		player_type[1]->displayCards();				// needs computers hand vector
 		cout << endl;
@@ -40,7 +42,9 @@ void Game::display()
 		cout << endl << endl;
 
 		cout << "Human: " << endl;
-		cout << "\tScore: " << endl;			// needs score #
+		cout << "\tScore: "; 			// needs score #
+		player_type[0]->displayScore();
+		cout << endl;
 		cout << "\tHand: ";
 		player_type[0]->displayCards();				// needs humans hand vector
 		cout  << endl;
@@ -48,7 +52,7 @@ void Game::display()
 		player_type[0]->displayCaptured();
 		cout << endl << endl;
 
-		cout << "Layout: ";		//
+		cout << "Layout: ";		//issues with layout and stockpile
 		displayLayout();
 		cout << endl << endl;
 
@@ -57,6 +61,7 @@ void Game::display()
 		cout << endl << endl;
 		cout << "Next Player: "; 
 		scammer.displayTurn();
+		cout << endl;
 
 	cout << "====================================================================\n";
 }
