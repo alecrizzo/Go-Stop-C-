@@ -119,19 +119,21 @@
     <ClCompile Include="computer.cpp" />
     <ClCompile Include="dealer.cpp" />
     <ClCompile Include="deck.cpp" />
-    <ClCompile Include="gameboard.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="gostop.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
+    <ClCompile Include="save.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.h" />
     <ClInclude Include="computer.h" />
     <ClInclude Include="dealer.h" />
     <ClInclude Include="deck.h" />
-    <ClInclude Include="gameboard.h" />
+    <ClInclude Include="game.h" />
     <ClInclude Include="gostop.h" />
     <ClInclude Include="player.h" />
+    <ClInclude Include="save.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

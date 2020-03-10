@@ -9,7 +9,7 @@
 void printRules()
 {
 	char rulechoice = ' ';
-	cout << "Welcome to the game of Go Stop, would you like to see the rules?\n";
+	cout << "Welcome to the game Go Stop, would you like to see the rules?\n";
 	while (!(rulechoice == 'y' || rulechoice == 'n'))
 	{
 		cout << "Input y for yes or n for no: ";
@@ -69,7 +69,7 @@ void printRules()
 		cout << "\t Two cards match if they have the same face (A-K)\n\n";
 
 		cout << "CONTROLS: \n";
-		cout << "\t To play a card, just type it as it appears on the gameboard (ex: 3H which is 3 of hearts)\n";
+		cout << "\t To play a card, just type it as it appears on the Game (ex: 3H which is 3 of hearts)\n";
 		cout << "\t If you would like to save the game, quit or ask for help, simply type 's', 'q', or 'h' respectively\n";
 
 	}

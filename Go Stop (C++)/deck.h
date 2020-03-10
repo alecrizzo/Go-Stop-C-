@@ -1,8 +1,10 @@
 #pragma once
 #include "gostop.h"
+#include "deck.h"
 
 // Class for Deck
-class Deck {
+class Deck 
+{
 private:
 	static vector<string> card_deck;	// Standard deck of 52 cards
 
@@ -11,6 +13,7 @@ public:
 
 	static int sizeOfDeck();
 	static void loadDeck(string card);
-	static void popDeck();		// gets card off top of deck
+	static string popDeck();		// gets card off top of deck and removes it
 	static void shuffleDeck();	// shuffles deck
+	static void printDeck();
 };
